@@ -1,8 +1,8 @@
 from decimal import Decimal
 from django.conf import settings
-from myshop.shop.models import Product
+from shop.models import Product
 
-from myshop.coupons.models import Coupon
+from coupons.models import Coupon
 
 
 class Cart:
