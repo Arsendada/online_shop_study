@@ -126,6 +126,7 @@ CART_SESSION_ID = 'cart'
 
 REDIS_HOST = '127.0.0.1'
 REDIS_PORT = '6379'
+REDIS_DB = 1
 # CELERY settings
 CELERY_BROKER_URL = 'redis://' + REDIS_HOST + ':' + REDIS_PORT + '/0'
 CELERY_BROKER_TRANSPORT_OPTION = {'visibility_timeout': 3600}
