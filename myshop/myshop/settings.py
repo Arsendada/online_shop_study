@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+from django.utils.translation import gettext_lazy as _
 
 load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -148,8 +149,8 @@ STRIPE_WEBHOOK_SECRET = os.getenv('STRIPE_WEBHOOK_SECRET')
 
 
 LANGUAGES = [
-    ('en', 'English'),
-    ('sp', 'Spanish'),
+    ('en', _('English')),
+    ('sp', _('Spanish')),
 ]
 
 
