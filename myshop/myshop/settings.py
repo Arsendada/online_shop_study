@@ -150,7 +150,7 @@ STRIPE_WEBHOOK_SECRET = os.getenv('STRIPE_WEBHOOK_SECRET')
 
 LANGUAGES = [
     ('en', _('English')),
-    ('sp', _('Spanish')),
+    ('es', _('Spanish')),
 ]
 
 
