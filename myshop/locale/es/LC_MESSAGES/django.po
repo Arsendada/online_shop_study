@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-20 20:17+0300\n"
-"PO-Revision-Date: 2022-12-20 20:02+0000\n"
+"PO-Revision-Date: 2022-12-20 20:21+0000\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -37,29 +37,28 @@ msgstr "Español"
 
 #: .\myshop\urls.py:12
 msgid "cart/"
-msgstr ""
+msgstr "carro/"
 
 #: .\myshop\urls.py:13
 msgid "orders/"
-msgstr ""
+msgstr "pedidos/"
 
 #: .\myshop\urls.py:14
 msgid "payment/"
-msgstr ""
+msgstr "pago/"
 
 #: .\myshop\urls.py:15
-#, fuzzy
 #| msgid "Coupon"
 msgid "coupons/"
 msgstr "Cupón"
 
 #: .\payment\urls.py:10
 msgid "process/"
-msgstr ""
+msgstr "procesar/"
 
 #: .\payment\urls.py:11
 msgid "completed/"
-msgstr ""
+msgstr "completado/"
 
 #: .\payment\urls.py:12
 msgid "canceled/"
